@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Sadanksh Gangrade</title>
+    <style>
+        .loading-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#0a0a0a;display:flex;align-items:center;justify-content:center;z-index:1000;transition:opacity .5s ease-out}.loader{width:50px;height:50px;border:3px solid transparent;border-top-color:#00e5ff;border-radius:50%;animation:spin 1s linear infinite;box-shadow:0 0 10px rgba(0,229,255,.5)}.loading-overlay.hide{opacity:0;pointer-events:none}@keyframes spin{to{transform:rotate(360deg)}}
+    </style>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <div class="loading-overlay">
+        <div class="loader"></div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <h1>Sadanksh Gangrade</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2 data-aos="fade-up">Get In Touch</h2>
+            <p class="animate-text"></p>
+        </div>
+        <div class="scroll-indicator"></div>
+    </section>
+
+    <section id="contact" data-aos="fade-up" data-aos-duration="800">
+        <div class="container">
+            <h2>Contact Me</h2>
+            
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <h3>Contact Information</h3>
+                    <ul class="contact-list">
+                        <li data-aos="fade-up" data-aos-delay="300"><i class="fas fa-envelope"></i> sadankshzz@gmail.com</li>
+                        <li data-aos="fade-up" data-aos-delay="400"><i class="fas fa-phone"></i> +91 7303802005</li>
+                        <li data-aos="fade-up" data-aos-delay="500"><i class="fas fa-map-marker-alt"></i> Gurgaon, India</li>
+                    </ul>
+                    
+                    <div class="social-links" data-aos="zoom-in" data-aos-delay="600">
+                        <a href="https://github.com/SADANKSH" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/sadanksh-gangrade" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:sadankshzz@gmail.com" class="social-icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sadanksh Gangrade. All rights reserved.</p>
+        </div>
+    </footer>
+    <script id="typed-options" type="application/json">
+        {
+            "strings": ["Feel free to reach out for collaboration or inquiries", "Let's discuss your project ideas", "Interested in working together?"],
+            "typeSpeed": 50,
+            "backSpeed": 30,
+            "backDelay": 1500,
+            "startDelay": 1000,
+            "loop": true
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 

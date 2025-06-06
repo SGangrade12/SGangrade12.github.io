@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Sadanksh Gangrade</title>
+    <style>
+        .loading-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#0a0a0a;display:flex;align-items:center;justify-content:center;z-index:1000;transition:opacity .5s ease-out}.loader{width:50px;height:50px;border:3px solid transparent;border-top-color:#00e5ff;border-radius:50%;animation:spin 1s linear infinite;box-shadow:0 0 10px rgba(0,229,255,.5)}.loading-overlay.hide{opacity:0;pointer-events:none}@keyframes spin{to{transform:rotate(360deg)}}
+    </style>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <div class="loading-overlay">
+        <div class="loader"></div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <h1>Sadanksh Gangrade</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2 data-aos="fade-up">About Me</h2>
+            <p class="animate-text"></p>
+        </div>
+        <div class="scroll-indicator"></div>
+    </section>
+
+    <section id="about" data-aos="fade-up" data-aos-duration="800">
+        <div class="container">
+            <h2>My Background</h2>
+            <p data-aos="fade-up" data-aos-delay="200">I am a passionate developer with experience in web development and software engineering.</p>
+            <p data-aos="fade-up" data-aos-delay="300">I enjoy creating elegant solutions to complex problems and continuously learning new technologies.</p>
+            
+            <div class="about-details" data-aos="fade-up" data-aos-delay="400">
+                <div class="about-section" data-aos="fade-right" data-aos-delay="500">
+                    <h3>Education</h3>
+                    <ul>
+                        <li>Bachelor's Degree in Computer Science</li>
+                        <li>Various certifications in web development and programming</li>
+                    </ul>
+                </div>
+                
+                <div class="about-section" data-aos="fade-left" data-aos-delay="600">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Front-end: HTML, CSS, JavaScript, React</li>
+                        <li>Back-end: Node.js, Express, MongoDB</li>
+                        <li>Other: Git, UI/UX Design, RESTful APIs</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="skills-container" data-aos="fade-up" data-aos-delay="700">
+                <div class="skill-group">
+                    <div class="skill-name">
+                        <span>HTML/CSS</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar" data-progress="90">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-group">
+                    <div class="skill-name">
+                        <span>JavaScript</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar" data-progress="85">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-group">
+                    <div class="skill-name">
+                        <span>React</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar" data-progress="75">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-group">
+                    <div class="skill-name">
+                        <span>Node.js</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar" data-progress="70">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sadanksh Gangrade. All rights reserved.</p>
+        </div>
+    </footer>
+    <script id="typed-options" type="application/json">
+        {
+            "strings": ["Learn more about my background and skills", "Discover my journey and expertise", "My experience and capabilities"],
+            "typeSpeed": 50,
+            "backSpeed": 30,
+            "backDelay": 1500,
+            "startDelay": 1000,
+            "loop": true
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
